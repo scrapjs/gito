@@ -31,7 +31,7 @@ Gito is a new command line tool so we can just do:
 gito 'your commit message'
 ```
 
-Changes get pushed after step now.
+Changes get added to the index, messaged as a commit, and pushed up with a single quick step.
 
 Be careful with compression commits and pushes, because it's all going to happen fast now in one fell swoop.
 
