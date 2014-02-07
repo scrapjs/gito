@@ -20,6 +20,7 @@ module.exports = function(argvs,cb){
       
       if(err)throw err;
 
+      //here we need to open buffers for stdout 
 
       return;
     

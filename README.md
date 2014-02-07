@@ -17,18 +17,18 @@ Example
 
 Normally a quick push means doing: 
 
-```
-git add .
-git commit -m 'your commit message'
-git push
+``` bash
+$ git add .
+$ git commit -m 'your commit message'
+$ git push
 ```
 
 Three steps executed separately at the command line get used to accomplish one thing more often than not.
 
 Gito is a new command line tool so we can just do:
 
-```
-gito 'your commit message'
+``` bash
+$ gito 'your commit message'
 ```
 
 Changes get added to the index, messaged as a commit, and pushed up with a single quick step.
