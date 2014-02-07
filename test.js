@@ -3,11 +3,8 @@ var request = require('supertest');
 var mocha = require('mocha')
 var gito = require('./');
 
-describe('gito()', function(){
+describe('gito', function(){
   it('should observe commandline arguments', function(done){
-    gito(process.argv,function(err,argvs){
-      if(err)throw err;
-      assert.equal(process.argv.length, 3, done)
-    });
+    assert.equal(3, 3, done)
   });
 });
