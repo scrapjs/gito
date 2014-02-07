@@ -5,6 +5,7 @@ var gito = require('./');
 
 describe('gito', function(){
   it('should observe commandline arguments', function(done){
-    assert.equal(3, 3, done)
+    assert.equal(3, 3, 'sweet');
+    done();
   });
 });
