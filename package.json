@@ -3,9 +3,6 @@
   "version": "0.0.1",
   "description": "git shortcuts",
   "main": "index.js",
-  "scripts": {
-    "test": "test"
-  },
   "repository": {
     "type": "git",
     "url": "git://github.com/reqshark/gito"
@@ -23,5 +20,14 @@
   "main": "./",
   "bin": {
     "gito": "./bin/gito"
+  },
+  "devDependencies": {
+    "supertest": "*",
+    "connect": "*",
+    "mocha": "*",
+    "should": "*"
+  },
+  "scripts": {
+    "test": "make test"
   }
 }
