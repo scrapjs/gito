@@ -28,6 +28,6 @@
     "should": "*"
   },
   "scripts": {
-    "test": "node test.js"
+    "test": "mocha test"
   }
 }
