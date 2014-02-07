@@ -3,7 +3,6 @@ gito
 ### run common git commands slightly faster
 [![Build Status](https://travis-ci.org/reqshark/gito.png?branch=master)](https://travis-ci.org/reqshark/gito)
 
-
 Installation
 ------------
 
