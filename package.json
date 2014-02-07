@@ -25,7 +25,8 @@
     "commander":"*",
     "mkdirp":"*",
     "mocha": "*",
-    "should": "*"
+    "should": "*",
+    "supertest":"*"
   },
   "scripts": {
     "test": "mocha test"
