@@ -23,19 +23,23 @@ git commit -m 'your commit message'
 git push
 ```
 
-I repeat these three steps frequently enough.
+Three steps executed separately at the command line get used to accomplish one thing more often than not.
 
-Now with gito's global installed as a command line tool, you can just do:
+Gito is a new command line tool so can just do:
 
 ```
 gito 'your commit message'
 ```
 
-Be careful with those commits and pushes, because it's all going to happen fast now in one fell swoop.
+Changes get pushed after step now.
+
+Be careful with compression commits and pushes, because it's all going to happen fast now in one fell swoop.
 
 ## ideas & notes about this software
 
-right now the output on the console doesn't display correctly. might add some buffers to fix this
+Gito performs compression commits.
+
+Visible output on the console doesn't display correctly. Would buffering stdout fix this?
 
 
 License
