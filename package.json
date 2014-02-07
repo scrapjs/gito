@@ -1,0 +1,27 @@
+{
+  "name": "gito",
+  "version": "0.0.1",
+  "description": "git shortcuts and preferences",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/reqshark/gito"
+  },
+  "keywords": [
+    "git",
+    "shortcuts"
+  ],
+  "author": "Bent Cardan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/reqshark/gito/issues"
+  },
+  "homepage": "https://github.com/reqshark/gito",
+  "main": "./",
+  "bin": {
+    "gito": "./bin/gito"
+  }
+}
