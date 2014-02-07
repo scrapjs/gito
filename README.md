@@ -25,7 +25,7 @@ git push
 
 Three steps executed separately at the command line get used to accomplish one thing more often than not.
 
-Gito is a new command line tool so can just do:
+Gito is a new command line tool so we can just do:
 
 ```
 gito 'your commit message'
