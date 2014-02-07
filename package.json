@@ -1,7 +1,7 @@
 {
   "name": "gito",
   "version": "0.0.1",
-  "description": "git shortcuts and preferences",
+  "description": "git shortcuts",
   "main": "index.js",
   "scripts": {
     "test": "test"
