@@ -1,6 +1,6 @@
 {
   "name": "gito",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "git shortcuts",
   "main": "index.js",
   "repository": {
@@ -22,8 +22,8 @@
     "gito": "./bin/gito"
   },
   "devDependencies": {
-    "supertest": "*",
-    "connect": "*",
+    "commander":"*",
+    "mkdirp":"*",
     "mocha": "*",
     "should": "*"
   },
