@@ -1,6 +1,10 @@
+MOCHA = ./node_modules/.bin/mocha
+TESTS = $(wildcard test/*.js)
+
+all:
+	npm install
+
 test:
-  @./node_modules/.bin/mocha \
-    --require should \
-    --reporter spec
+	$(MOCHA) ./test/commandline.js
 
 .PHONY: test

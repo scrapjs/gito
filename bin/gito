@@ -1,17 +1,2 @@
 #!/usr/bin/env node
-
-/**
- * Module dependencies.
- */
-
-var gito = require('..')
-var exec = require('child_process').exec
-
-// CLI
-
-gito(process.argv,function(err,results){
-  
-  //need to fix output so it looks right
-
-  console.log(results)
-})
+require('..')(process.argv)
