@@ -1,3 +1,10 @@
+0.1.0 / 2014-11-09
+==================
+
+ * fixed visible output on the console
+ * tty display using the child_process Stream object
+ * cleaned up make a bit
+ * added shell-quote dependency for cleaner commit message relay
 
 0.0.3 / 2014-02-28
 ==================
